@@ -9,4 +9,4 @@ class ModelIdBase():
         """ID for distinguishing models"""
         id = inspect(self).identity
         id = '-'.join([str(key) for key in id]) if id is not None else ''
-        return type(self).__tablename__+'-'+str(id)
+        return type(self).__name__+'-'+str(id)
