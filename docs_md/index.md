@@ -1,3 +1,5 @@
+# SQLAlchemy-ModelID
+
 SQLAlchemy-ModelID provides a base for [SQLAlchemy](https://www.sqlalchemy.org/) models with a `model_id` property. This conveniently distinguishes between models with the same primary key but from different tables.
 
 ## Installation
